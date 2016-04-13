@@ -1,0 +1,575 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	
+	
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #03899C;
+}
+
+h1 {
+	font-size: 2em;
+	color: #033E6B;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+
+
+h2 {
+	font-size: 2.4em;
+	color: #000000;
+	font-family: "Orbitron", sans-serif;
+	font-weight: 700
+}
+
+h3 {
+	font-size: 1.4em;
+	color: #000000;
+	font-family:  "Orbitron", sans-serif;
+    font-weight: 500
+}
+h4 {
+	margin-top: 0;
+	line-height: 180%;
+	font-family: "Tahoma", "Geneva", sans-serif; 
+}
+p, ul {
+	margin-top: 0;
+	line-height: 180%;
+	font-size: 1.1em;
+	font-family: "Raleway", sans-serif;	
+	
+}
+
+ol {
+	margin-top: 0;
+	line-height: 120%;
+	font-size: 14px;
+	font-family: "Raleway", sans-serif;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+   
+	color: #000000;
+}
+
+a:hover {
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+
+
+
+#header {
+	width: 960px;
+	height: 60px;
+	margin: 0 auto;
+}
+/* copyright */
+
+#copyright h1 {
+	font-size: 1.4em;
+	color: #000000;
+	font-family:  "Orbitron", sans-serif;
+    font-weight: 500;
+    margin: 0;
+
+
+}
+
+#copyright p {
+	font-size: 0.8em;
+	color: #808080;
+	font-family: "Raleway", sans-serif;
+	margin-left: 260px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+    
+}
+
+
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 40px;
+	margin: 0;
+	color: #000000;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	padding-left: 20px;
+	letter-spacing: -1px;
+	font-size: 3em;
+
+}
+
+#logo p {
+	float: left;
+	margin: 0;
+	padding: 26px 0 0 10px;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #333333;
+} 
+
+#logo p a {
+	color: #1569C7;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #03899C;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 60px;
+	padding: 20px 0px 0px 0px;
+	background: #E9E3CB;
+	border-bottom: 4px solid #FFFFFF;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 170px;
+	padding: 6px 5px 2px 5px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #464032;
+}
+
+#search-submit {
+	width: 50px;
+	height: 23px;
+	border: 1px solid #525252;
+	background: #525252;
+	font-weight: bold;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	width: 940px;
+	height: 36px;
+	margin: 0 auto;
+	padding: 0;
+	
+
+   
+}
+
+#menu ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+
+}
+
+#menu li {
+	float: right;
+}
+
+#menu a {
+	display: block;
+	height: 26px;
+	margin-bottom: 10px;
+	padding: 10px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	
+	font-family: "Raleway-Regular", "Raleway", sans-serif;
+	font-size: 14px;
+	
+	color: #000000;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #87CEFA;
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+#page-bgtop {
+	padding: 20px 0px;
+}
+
+#page-bgbtm {
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 350px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+	margin-bottom: 15px;
+}
+
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .title {
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+	letter-spacing: -.5px;
+	color: #000000;
+}
+
+.post .title a {
+	color: #221D1D;
+	border: none;
+}
+
+.post .meta {
+	height: 30px;
+	border-bottom: 1px solid #DBDBDB;
+	background: #F4F4F4;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.post .meta .date {
+	float: left;
+	height: 24px;
+	padding: 3px 15px;
+	color: #464032;
+}
+
+.post .meta .posted {
+	float: right;
+	height: 24px;
+	padding: 3px 15px;
+	color: #464032;
+}
+
+.post .meta a {
+	color: #464032;
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: center;
+	width: 940px;
+	padding: 0px;
+	color: #00000;
+	padding-top: 0px;
+
+
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px dotted #0B61A4;
+	margin: 0px 30px;
+	border-right: none;
+}
+
+#sidebar li a {
+	padding-left: 10px;
+	background: url(images/img03.gif) no-repeat left 5px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	padding-left: 30px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	letter-spacing: -0.5px;
+	font-size: 1.8em;
+	color: #000000;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 35px 30px 30px 30px;
+	text-align: justify;
+	color: #000000;
+
+}
+
+#sidebar a {
+	border: none;
+	color: #898989;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #6E6E6E;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 940px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	border-top: 5px solid #0B61A4;
+	
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	
+	
+	text-align: center;
+	
+}
+
+#footer a {
+	color: #464032;
+}
+
+#main_image {
+	height: 720px;
+}
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+
+#slider_wrapper {
+	height: 720px;
+}
+#slider {
+	position: relative;
+	width: 618px;
+	height: 720px;
+	backgroung: url(../p%C3%A1ginas/imges/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#slider a {
+	border: 0;
+	display: block;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+	background:url(nivotest/themes/default/arrows.png) no-repeat;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+a.nivo-nextNav {
+	right:15px;
+	background-position: -30px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	margin-left: 380px;
+}
+
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+	float: left;
+	background:url(nivotest/themes/default/bullets.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	text-indent: -9999px;
+	margin-top: 730px;
+}
+.nivo-controlNav a.active {
+	background-position: 0 -22px;
+}

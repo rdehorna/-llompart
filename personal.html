@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Arthropod  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100422
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="images/iconico3.ico">
+<link href='http://fonts.googleapis.com/css?family=Orbitron:500,700|Raleway' rel='stylesheet' type='text/css'>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Miguel Llompart / Photo Gallery </title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style type="text/css">
+</style>
+
+
+
+
+	<script src="nivotest/jquery-1.6.4.min.js" type="text/javascript"></script>
+	<script src="nivotest/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 8, // For box animations
+        animSpeed: 350, // Slide transition speed
+        pauseTime: 5000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: false, // Next & Prev navigation
+        directionNavHide: true, // Only show on hover
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: true, // Use thumbnails for Control Nav
+        controlNavThumbsFromRel: true, // Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', // Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', // ...this in thumb Image src
+        keyboardNav: true, // Use left & right arrows
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        captionOpacity: 0.0, // Universal caption opacity
+        prevText: 'Prev', // Prev directionNav text
+        nextText: 'Next', // Next directionNav text
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+    });
+});
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="index.html"><img src="images/Miguel_nombre.png" alt="Miguel Llompart"></a></h1>
+		</div>
+	</div>
+	<div>
+        <br></br>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="personal.html">/photo_gallery/</a></li>
+			<li><a href="teaching.html">/teaching/</a></li>
+			<li><a href="research.html">/research/</a></li>
+			<li><a href="cv.html">/cv/</a></li>
+			<li><a href="bio.html">/bio/</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div>
+	<br></br>
+	</div>
+	<div id="page">
+		<div id="main_image">
+			<div id="slider_wrapper">
+				<div id="slider">
+					<img src="nivotest/images/personal/graz.jpg" title="Graz, Austria">
+					<img src="nivotest/images/personal/desert.jpg" title="Tucson, Arizona, US">
+					<img src="nivotest/images/personal/puerto_de_soller.jpg" title="Port de Sóller, Spain">
+					<img src="nivotest/images/personal/gent.jpg" title="Gent, Belgium">
+					<img src="nivotest/images/personal/san_fran.jpg" title="San Francisco, California, US">
+					<img src="nivotest/images/personal/gent2.jpg" title="Gent, Belgium">
+					<img src="nivotest/images/personal/coronado.jpg" title="San Diego, California, US">
+					<img src="nivotest/images/personal/sunset.jpg" title="Tucson, Arizona, US">
+					<img src="nivotest/images/personal/tucson.jpg" title="Tucson, Arizona, US">
+					<img src="nivotest/images/personal/soller.jpg" title="Sóller, Spain">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+
+<div id="copyright"><h1><center></br></br>
+------------------------------------------------------------------------------//</center></h1>
+<p>Copyright &copy; 2014 RdeH</p>
+<br></br>
+</div>
+<!-- end #footer -->
+</body>
+</html>

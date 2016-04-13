@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Nivo Test</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Joseph Casillas">
+	<!-- Date: 2011-10-26 -->
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random', //Specify sets like: 'fold,fade,sliceDown'
+        slices:20,
+        animSpeed:500, //Slide transition speed
+        pauseTime:3000,
+        startSlide:0, //Set starting Slide (0 index)
+        directionNav:true, //Next & Prev
+        directionNavHide:true, //Only show on hover
+        controlNav:true, //1,2,3...
+        controlNavThumbs:false, //Use thumbnails for Control Nav
+        controlNavThumbsFromRel:false, //Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', //Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+        keyboardNav:true, //Use left & right arrows
+        pauseOnHover:true, //Stop animation while hovering
+        manualAdvance:false, //Force manual transitions
+        captionOpacity:0.8, //Universal caption opacity
+        beforeChange: function(){},
+        afterChange: function(){},
+        slideshowEnd: function(){}, //Triggers after all slides have been shown
+        lastSlide: function(){}, //Triggers when last slide is shown
+        afterLoad: function(){} //Triggers when slider has loaded
+    });
+});
+</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="slider_wrapper">
+			<div id="slider">
+				<img src="images/nemo.jpg" title="nemo image">
+				<img src="images/walle.jpg" title="hi">
+				<img src="images/toystory.jpg" title="toystory">
+				<img src="images/up.jpg" title="test">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

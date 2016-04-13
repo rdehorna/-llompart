@@ -1,0 +1,32 @@
+#gallery-wrapper {
+	width: 350px;
+	height: 390px;
+	margin-bottom: 20px;
+	margin-top: 63px;
+	float: right;
+}
+
+#gallery
+{
+	width: 350px;
+}
+
+#gallery img.output
+{
+	width: 345px;
+	height: 345px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+	border: solid 1px #808080;
+}
+
+#gallery span.caption
+{
+	display: block;
+	margin: 1em 0 1em 0;
+}
+
+
+.transparent {
+
+}
